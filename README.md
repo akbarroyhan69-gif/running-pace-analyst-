@@ -7,4 +7,4 @@ Penelitian ini bertujuan menganalisis faktor-faktor yang memengaruhi pace lari m
 
 ## Judul
 - List
-[Link]()
+[sudrunner.ipynb](sudrunner.ipynb)

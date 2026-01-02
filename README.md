@@ -5,16 +5,6 @@ Penelitian ini bertujuan menganalisis faktor-faktor yang memengaruhi pace lari m
 
 ## Struktur Repository
 
-analisis-pace-lari/
-│
-├── data/
-│   └── s.xlsx
-│
-├── notebooks/
-│   └── analisis_pace_lari.ipynb
-│
-├── images/
-│   ├── feature_importance_reg.png
-│   └── heatmap_importance.png
-│
-├── README.md
+## Judul
+- List
+[Link]()

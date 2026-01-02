@@ -5,10 +5,10 @@ Penelitian ini bertujuan menganalisis faktor-faktor yang memengaruhi pace lari m
 
 ## Metode
 
-![Feature Importance](ceisp-dm.jpg)
+![Feature Importance](crisp-dm.jpg)
 
 ### Struktur projek
 - List
 [sudrunner.ipynb](sudrunner.ipynb)
 - List
-[crisp-dm](ceisp-dm.jpg)
+[crisp-dm](crisp-dm.jpg)

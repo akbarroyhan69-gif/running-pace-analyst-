@@ -6,4 +6,5 @@ Penelitian ini bertujuan menganalisis faktor-faktor yang memengaruhi pace lari m
 ## Struktur Repository
 - List
 [sudrunner.ipynb](sudrunner.ipynb)
+- List
 [crisp-dm](ceisp-dm.jpg)

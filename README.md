@@ -5,7 +5,7 @@ Penelitian ini bertujuan menganalisis faktor-faktor yang memengaruhi pace lari m
 
 ## Metode
 
-images/ceisp-dm.jpg
+![Feature Importance](ceisp-dm.jpg)
 
 ### Struktur projek
 - List

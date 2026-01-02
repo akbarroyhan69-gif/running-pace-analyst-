@@ -8,7 +8,6 @@ Penelitian ini bertujuan menganalisis faktor-faktor yang memengaruhi pace lari m
 ![Feature Importance](crisp-dm.jpg)
 
 ### Struktur projek
-- List
+- notebook
 [sudrunner.ipynb](sudrunner.ipynb)
-- List
-[crisp-dm](crisp-dm.jpg)
+

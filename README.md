@@ -55,6 +55,8 @@ Target:
 ### 🔹 Diagram CRISP-DM
 ![CRISP-DM](crisp-dm.jpg)
 
+### Scatter Plot Feature vs Pace  
+![Semester](semester.png) ![Usia](usia.png) ![Tinggi](tinggi.png) ![Berat](berat.png) ![Indeks Massa Tubuh](imt.png) ![Latihan Perminggu](latihan%20per%20minggu.png) ![Status Perokok](perokok.png)   
 ### 🔹 Error Metrics
 ![Error Metrics](error%20metrics.png)
 
@@ -76,7 +78,6 @@ memiliki pengaruh signifikan terhadap pace lari.
 Analisis dilakukan menggunakan:
 - Feature Importance (MDI)
 - Partial Dependence Plot (PDP)
-- Scatter Plot Feature vs Pace
 
 ---
 

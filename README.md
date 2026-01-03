@@ -19,7 +19,8 @@ Penelitian ini bertujuan untuk:
 ---
 
 ## 🧪 Dataset & Fitur
-Dataset berisi data mahasiswa dengan fitur:
+## [sampel data, klik disini untuk melihat](s.xlsx)
+Dataset berjumlah 118 data yang berisi data mahasiswa dengan fitur:
 - semester
 - usia
 - tinggi

@@ -19,7 +19,7 @@ Penelitian ini bertujuan untuk:
 ---
 
 ## 🧪 Dataset & Fitur
-## [sampel data, klik disini untuk melihat](s.xlsx)
+## [sampel data, klik disini untuk melihat](s-copy.csv)
 Dataset berjumlah 118 data yang berisi data mahasiswa dengan fitur:
 - semester
 - usia
@@ -56,7 +56,7 @@ Target:
 ### 🔹 Diagram CRISP-DM
 ![CRISP-DM](crisp-dm.jpg)
 
-### Scatter Plot Feature vs Pace  
+### 🔹 Scatter Plot Feature vs Pace  
 ![Semester](semester.png) ![Usia](usia.png) ![Tinggi](tinggi.png) ![Berat](berat.png) ![Indeks Massa Tubuh](imt.png) ![Latihan Perminggu](latihan%20per%20minggu.png) ![Status Perokok](perokok.png)   
 ### 🔹 Error Metrics
 ![Error Metrics](error%20metrics.png)

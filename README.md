@@ -102,6 +102,7 @@ Repository ini digunakan sebagai:
 Silakan akses repository ini melalui halaman utama GitHub:  
 [👉 Klik nama repository di bagian atas halaman](https://github.com/akbarroyhan69-gif/running-pace-analyst-) 
 ---
+
 # [codingan lengkap pada notebook colab](sudrunner.ipynb)  
 
 ---

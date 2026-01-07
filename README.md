@@ -1,4 +1,4 @@
-# Analisis Faktor-Faktor yang Mempengaruhi Pace Lari Menggunakan Random Forest
+
 
 Repository ini berisi notebook dan hasil analisis untuk penelitian Analisis Faktor-Faktor yang Mempengaruhi Pace Lari Mahasiswa menggunakan metode Random Forest Regression dan Classification.  
 Analisis dilakukan menggunakan Python dan Google Colab.
@@ -19,7 +19,9 @@ Penelitian ini bertujuan untuk:
 ---
 
 ## 🧪 Dataset & Fitur
-## [sampel data, klik disini untuk melihat](s%20-%20Copy.csv)
+## [Sampel data](s%20-%20Copy.csv)  
+## [Hasil augmentasi sempel data](data_hasil_augmentasi.csv)  
+## [Data gabungan](data_gabungang.csv)  
 Dataset berjumlah 118 data yang berisi data mahasiswa dengan fitur:
 - semester
 - usia

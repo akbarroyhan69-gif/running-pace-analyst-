@@ -38,6 +38,7 @@ Target:
 ---
 
 ## ⚙️ Metode yang Digunakan
+### [Data processing](data_processing.ipynb)
 - Data Cleaning & Preprocessing
 - Feature Engineering (IMT)
 - Data Augmentation

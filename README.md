@@ -79,7 +79,6 @@ dan interpretasi hasil.
     </b><br>
     Visualisasi matriks korelasi antar variabel
   </li>
-</ul>
 
   <li>
     <b>

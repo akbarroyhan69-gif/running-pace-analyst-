@@ -1,115 +1,97 @@
-![judul](judul.jpg)
+<h1 align="center">🏃‍♂️ Analisis Faktor yang Mempengaruhi Pace Lari Mahasiswa</h1>
 
-Repository ini berisi notebook dan hasil analisis untuk penelitian Analisis Faktor-Faktor yang Mempengaruhi Pace Lari Mahasiswa menggunakan metode Random Forest Regression dan Classification.  
-Analisis dilakukan menggunakan Python dan Google Colab.
+<p align="center">
+  Menggunakan <b>Random Forest Regressor</b> untuk menganalisis faktor-faktor yang memengaruhi pace lari mahasiswa
+</p>
 
----
+<hr>
 
-## 📌 Tujuan Penelitian
-Penelitian ini bertujuan untuk:
-- Menganalisis faktor-faktor yang mempengaruhi pace lari
-- Memprediksi nilai pace lari (regresi)
-- Mengklasifikasikan kategori pace (cepat / lambat)
-- Mengetahui feature importance dari setiap variabel
+<h2>📌 Deskripsi Proyek</h2>
+<p>
+Proyek ini bertujuan untuk menganalisis faktor-faktor yang memengaruhi <b>pace lari mahasiswa</b>
+menggunakan pendekatan <b>Machine Learning</b>, khususnya algoritma <b>Random Forest Regressor</b>.
+Analisis dilakukan melalui tahapan data processing, pemodelan, evaluasi, serta interpretasi model.
+</p>
 
----
+<hr>
 
-## 📂 Struktur Repository
+<h2>📂 Struktur File</h2>
 
----
+<ul>
+  <li><b>README.md</b><br>
+      Dokumentasi proyek</li>
 
-## 🧪 Dataset & Fitur
-## [Sampel data](s%20-%20Copy.csv)  
-## [Hasil augmentasi sempel data](data_hasil_augmentasi.csv)  
-## [Data gabungan](data_gabungang.csv)  
-Dataset berjumlah 118 data yang berisi data mahasiswa dengan fitur:
-- semester
-- usia
-- tinggi
-- berat
-- imt
-- latihan_per_minggu
-- perokok
+  <li><b>data_processing.ipynb</b><br>
+      Notebook untuk preprocessing data, pembersihan data, dan transformasi variabel</li>
 
-Target:
-- Regresi : pace
-- Klasifikasi : kategori_pace (cepat / lambat)
+  <li><b>modeling.ipynb</b><br>
+      Proses pembangunan model Random Forest Regressor</li>
 
----
+  <li><b>evaluasi_dan_validasi.ipynb</b><br>
+      Evaluasi model menggunakan metrik regresi dan validasi performa</li>
 
-## ⚙️ Metode yang Digunakan
-### [Data processing](data_processing.ipynb)
-- Data Cleaning & Preprocessing
-- Feature Engineering (IMT)
-- Data Augmentation
-- Train-Test Split
-- Random Forest Regressor
-- Random Forest Classifier
-- Evaluasi Model:
-  - MAE
-  - MSE
-  - RMSE
-  - R² Score
-  - Accuracy & Classification Report
+  <li><b>submission.ipynb</b><br>
+      Notebook final yang berisi keseluruhan alur analisis</li>
 
----
+  <li><b>X_test.csv</b><br>
+      Data fitur untuk pengujian model</li>
 
-## 📊 Hasil Visualisasi
+  <li><b>y_test.csv</b><br>
+      Data target (pace lari) untuk pengujian model</li>
 
-### 🔹 Diagram CRISP-DM
-![CRISP-DM](crisp-dm.jpg)
+  <li><b>prediksi_setiap_pohon(1).csv</b><br>
+      Hasil prediksi dari masing-masing pohon keputusan</li>
 
-### 🔹 Scatter Plot Feature vs Pace  
-![Semester](semester.png) ![Usia](usia.png) ![Tinggi](tinggi.png) ![Berat](berat.png) ![Indeks Massa Tubuh](imt.png) ![Latihan Perminggu](latihan%20per%20minggu.png) ![Status Perokok](perokok.png)   
-### 🔹 Error Metrics
-![Error Metrics](error%20metrics.png)
+  <li><b>ringkasan_pohon(1).csv</b><br>
+      Ringkasan struktur dan hasil pohon keputusan</li>
 
-### 🔹 R² Score
-![R2](matriks%20R².png)
+  <li><b>matriks R.png</b><br>
+      Visualisasi matriks korelasi antar variabel</li>
+</ul>
 
-### 🔹 Heatmap Feature Importance
-![Heatmap](heatmap%20feature%20important.png)
+<hr>
 
----
+<h2>⚙️ Metode yang Digunakan</h2>
 
-## 🔍 Feature Importance & Analisis
-Model Random Forest menunjukkan bahwa beberapa fitur seperti:
-- Indeks Massa Tubuh (IMT)
-- Tinggi
-- Latihan perminggu
-memiliki pengaruh signifikan terhadap pace lari.
+<ul>
+  <li>Random Forest Regressor</li>
+  <li>Split Data: Data Latih & Data Uji</li>
+  <li>Evaluasi Model (MAE, MSE, RMSE, R²)</li>
+  <li>Analisis Feature Importance</li>
+</ul>
 
-Analisis dilakukan menggunakan:
-- Feature Importance (MDI)
-- Partial Dependence Plot (PDP)
+<hr>
 
----
+<h2>📊 Hasil Analisis</h2>
+<p>
+Model Random Forest mampu mengidentifikasi variabel-variabel yang paling berpengaruh
+terhadap pace lari mahasiswa. Hasil ini digunakan untuk analisis faktor dominan
+dan interpretasi hubungan antar variabel.
+</p>
 
-## ▶️ Cara Menjalankan Notebook
-1. Buka file sudrunner.ipynb
-2. Jalankan menggunakan Google Colab
-3. Upload dataset s.xlsx saat diminta
-4. Jalankan cell secara berurutan dari atas ke bawah
+<hr>
 
----
+<h2>🛠 Tools & Library</h2>
 
-## 🧑‍🎓 Catatan Akademik
-Repository ini digunakan sebagai:
-- Dokumentasi penelitian
-- Pendukung skripsi
-- Reproducibility analisis data
+<ul>
+  <li>Python</li>
+  <li>Pandas</li>
+  <li>NumPy</li>
+  <li>Scikit-learn</li>
+  <li>Matplotlib & Seaborn</li>
+</ul>
 
----
+<hr>
 
-## 📎 Link Repository
-Silakan akses repository ini melalui halaman utama GitHub:  
-[👉 Klik nama repository di bagian atas halaman](https://github.com/akbarroyhan69-gif/running-pace-analyst-) 
----
+<h2>👤 Penulis</h2>
 
-# [codingan lengkap pada notebook colab](sudrunner.ipynb)  
+<p>
+<b>Royhan Akbar Supriyono</b><br>
+Mahasiswa / Peneliti Data Science
+</p>
 
----
+<hr>
 
-## ✍️ Penulis
-Royhan Akbar  
-Analisis Data & Machine Learning
+<p align="center">
+  📌 <i>Repository ini dibuat untuk keperluan akademik dan penelitian</i>
+</p>

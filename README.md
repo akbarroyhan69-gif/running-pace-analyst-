@@ -1,97 +1,133 @@
 <h1 align="center">🏃‍♂️ Analisis Faktor yang Mempengaruhi Pace Lari Mahasiswa</h1>
 
 <p align="center">
-  Menggunakan <b>Random Forest Regressor</b> untuk menganalisis faktor-faktor yang memengaruhi pace lari mahasiswa
+  Menggunakan <b>Random Forest Regressor</b> untuk analisis faktor pace lari mahasiswa
 </p>
 
 <hr>
 
 <h2>📌 Deskripsi Proyek</h2>
 <p>
-Proyek ini bertujuan untuk menganalisis faktor-faktor yang memengaruhi <b>pace lari mahasiswa</b>
-menggunakan pendekatan <b>Machine Learning</b>, khususnya algoritma <b>Random Forest Regressor</b>.
-Analisis dilakukan melalui tahapan data processing, pemodelan, evaluasi, serta interpretasi model.
+Penelitian ini menganalisis faktor-faktor yang memengaruhi <b>pace lari mahasiswa</b>
+menggunakan algoritma <b>Random Forest Regressor</b> dengan pendekatan machine learning.
 </p>
 
 <hr>
 
-<h2>📂 Struktur File</h2>
+<h2>📂 Struktur File & Dokumentasi</h2>
 
 <ul>
-  <li><b>README.md</b><br>
-      Dokumentasi proyek</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/README.md">
+        README.md
+      </a>
+    </b><br>
+    Dokumentasi utama proyek
+  </li>
 
-  <li><b>data_processing.ipynb</b><br>
-      Notebook untuk preprocessing data, pembersihan data, dan transformasi variabel</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/data_processing.ipynb">
+        data_processing.ipynb
+      </a>
+    </b><br>
+    Proses preprocessing dan pembersihan data
+  </li>
 
-  <li><b>modeling.ipynb</b><br>
-      Proses pembangunan model Random Forest Regressor</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/modeling.ipynb">
+        modeling.ipynb
+      </a>
+    </b><br>
+    Pembangunan model Random Forest Regressor
+  </li>
 
-  <li><b>evaluasi_dan_validasi.ipynb</b><br>
-      Evaluasi model menggunakan metrik regresi dan validasi performa</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/evaluasi_dan_validasi.ipynb">
+        evaluasi_dan_validasi.ipynb
+      </a>
+    </b><br>
+    Evaluasi dan validasi performa model
+  </li>
 
-  <li><b>submission.ipynb</b><br>
-      Notebook final yang berisi keseluruhan alur analisis</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/submission.ipynb">
+        submission.ipynb
+      </a>
+    </b><br>
+    Notebook final keseluruhan analisis
+  </li>
 
-  <li><b>X_test.csv</b><br>
-      Data fitur untuk pengujian model</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/X_test.csv">
+        X_test.csv
+      </a>
+    </b><br>
+    Data fitur untuk pengujian model
+  </li>
 
-  <li><b>y_test.csv</b><br>
-      Data target (pace lari) untuk pengujian model</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/y_test.csv">
+        y_test.csv
+      </a>
+    </b><br>
+    Data target (pace lari) pengujian
+  </li>
 
-  <li><b>prediksi_setiap_pohon(1).csv</b><br>
-      Hasil prediksi dari masing-masing pohon keputusan</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/prediksi_setiap_pohon(1).csv">
+        prediksi_setiap_pohon(1).csv
+      </a>
+    </b><br>
+    Hasil prediksi dari setiap pohon keputusan
+  </li>
 
-  <li><b>ringkasan_pohon(1).csv</b><br>
-      Ringkasan struktur dan hasil pohon keputusan</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/ringkasan_pohon(1).csv">
+        ringkasan_pohon(1).csv
+      </a>
+    </b><br>
+    Ringkasan struktur dan hasil pohon keputusan
+  </li>
 
-  <li><b>matriks R.png</b><br>
-      Visualisasi matriks korelasi antar variabel</li>
+  <li>
+    <b>
+      <a href="https://github.com/USERNAME/REPO_NAME/blob/main/matriks%20R.png">
+        matriks R.png
+      </a>
+    </b><br>
+    Visualisasi matriks korelasi variabel
+  </li>
 </ul>
 
 <hr>
 
-<h2>⚙️ Metode yang Digunakan</h2>
-
+<h2>⚙️ Metode</h2>
 <ul>
   <li>Random Forest Regressor</li>
-  <li>Split Data: Data Latih & Data Uji</li>
-  <li>Evaluasi Model (MAE, MSE, RMSE, R²)</li>
-  <li>Analisis Feature Importance</li>
-</ul>
-
-<hr>
-
-<h2>📊 Hasil Analisis</h2>
-<p>
-Model Random Forest mampu mengidentifikasi variabel-variabel yang paling berpengaruh
-terhadap pace lari mahasiswa. Hasil ini digunakan untuk analisis faktor dominan
-dan interpretasi hubungan antar variabel.
-</p>
-
-<hr>
-
-<h2>🛠 Tools & Library</h2>
-
-<ul>
-  <li>Python</li>
-  <li>Pandas</li>
-  <li>NumPy</li>
-  <li>Scikit-learn</li>
-  <li>Matplotlib & Seaborn</li>
+  <li>Train-Test Split</li>
+  <li>Evaluasi MAE, MSE, RMSE, dan R²</li>
+  <li>Feature Importance Analysis</li>
 </ul>
 
 <hr>
 
 <h2>👤 Penulis</h2>
-
 <p>
 <b>Royhan Akbar Supriyono</b><br>
-Mahasiswa / Peneliti Data Science
+Penelitian Akademik – Data Science
 </p>
 
 <hr>
 
 <p align="center">
-  📌 <i>Repository ini dibuat untuk keperluan akademik dan penelitian</i>
+  <i>Repository ini dibuat untuk keperluan penelitian dan akademik</i>
 </p>

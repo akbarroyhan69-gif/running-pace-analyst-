@@ -50,7 +50,7 @@ dan interpretasi hasil.
   </li>
 
   <li>
-    <b><a href="y_test.csv">y_test.csv</a></b><br>
+    <b><a href="y_test (1).csv">y_test.csv</a></b><br>
     Data target (pace lari) untuk pengujian
   </li>
 

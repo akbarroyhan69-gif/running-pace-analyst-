@@ -35,7 +35,7 @@ dan interpretasi hasil.
   </li>
 
   <li>
-    <b><a href="evaluasi_dan_visualisasi.ipynb">evaluasi_dan_validasi.ipynb</a></b><br>
+    <b><a href="evaluasi_dan_visualisasi.ipynb">evaluasi_dan_visualisasi.ipynb</a></b><br>
     Evaluasi dan validasi performa model
   </li>
 

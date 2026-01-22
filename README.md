@@ -74,7 +74,7 @@ dan interpretasi hasil.
 
   <li>
     <b>
-      <a href="matriks%20R.png">
+      <a href="matriks R².png">
         matriks R.png
       </a>
     </b><br>

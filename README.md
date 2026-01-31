@@ -33,7 +33,7 @@ dan interpretasi hasil.
     Proses preprocessing dan pembersihan data
   </li>
   <li>
-    <b><a href="full_df (1)">data gabungan</a></b><br>
+    <b><a href="full_df (1).csv">data gabungan</a></b><br>
     Proses preprocessing dan pembersihan data
   </li>
 

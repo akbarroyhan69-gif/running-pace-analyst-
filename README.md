@@ -23,9 +23,17 @@ dan interpretasi hasil.
     <b><a href="README.md">README.md</a></b><br>
     Dokumentasi utama repository
   </li>
+  <li>
+    <b><a href="sfx.xlsx">data sampel</a></b><br>
+    Proses preprocessing dan pembersihan data
+  </li>
 
   <li>
     <b><a href="data_processing.ipynb">data_processing.ipynb</a></b><br>
+    Proses preprocessing dan pembersihan data
+  </li>
+  <li>
+    <b><a href="full_df(1)">data gabungan</a></b><br>
     Proses preprocessing dan pembersihan data
   </li>
 

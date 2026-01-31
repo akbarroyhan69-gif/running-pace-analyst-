@@ -40,11 +40,6 @@ dan interpretasi hasil.
   </li>
 
   <li>
-    <b><a href="sudrunner.ipynb">submission.ipynb</a></b><br>
-    Notebook final keseluruhan analisis
-  </li>
-
-  <li>
     <b><a href="X_test (1).csv">X_test.csv</a></b><br>
     Data fitur untuk pengujian model
   </li>

@@ -71,25 +71,7 @@ dan interpretasi hasil.
     </b><br>
     Ringkasan struktur pohon keputusan
   </li>
- <li>
-    <b>
-      <a href="evv.png">
-        matriks matriks error.png
-      </a>
-    </b><br>
-    Visualisasi matriks korelasi antar variabel
-  </li>
-
-  <li>
-    <b>
-      <a href="evv.png">
-        matriks R.png
-      </a>
-    </b><br>
-    Visualisasi matriks korelasi antar variabel
-  </li>
-</ul>
-
+ 
 <hr>
 
 <h2>⚙️ Metode</h2>
